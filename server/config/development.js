@@ -1,7 +1,12 @@
+/*
+  * DESC: Development environment configurations
+*/
+
 module.exports = {
-  // enabled logging for development
+  // enable logging for development
   logging: true,
+  seed: true,
   db: {
-    url: 'mongodb://localhost/nodeblog'
+    url: 'mongodb://localhost/jalexb_db'
   }
-};
+}
