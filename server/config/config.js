@@ -21,7 +21,6 @@ var config = {
     // Change before production
     user: process.env.APP_EMAIL_USER,
     password: process.env.APP_EMAIL_PASSWORD,
-    registerUserUrl: 'api/users/verifyEmail'
   },
   server: {
     host: process.env.APP_URL || 'localhost',
